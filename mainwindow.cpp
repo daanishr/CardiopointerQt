@@ -46,3 +46,15 @@ void MainWindow::on_pushButton_3_clicked()
     //reset model
      QMessageBox::information(this,"Reset","Model Reset successfull");
 }
+
+
+
+void MainWindow::on_pushButton_5_clicked()
+{
+     QMessageBox::information(this,"Leap","Leap Motion Device Enabled");
+}
+
+void MainWindow::on_pushButton_6_clicked()
+{
+    QMessageBox::information(this,"Leap","Leap Motion Device Disabled");
+}
