@@ -739,7 +739,7 @@
    <sender>actionDisable_Leap_Motion_Device</sender>
    <signal>triggered()</signal>
    <receiver>pushButton_6</receiver>
-   <slot>animateClick()</slot>
+   <slot>click()</slot>
    <hints>
     <hint type="sourcelabel">
      <x>-1</x>
