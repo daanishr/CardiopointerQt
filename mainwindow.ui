@@ -388,6 +388,9 @@
    <property name="text">
     <string>Reset Model</string>
    </property>
+   <property name="shortcut">
+    <string>Ctrl+R</string>
+   </property>
   </action>
   <action name="actionClear_Model">
    <property name="text">
@@ -433,6 +436,9 @@
    <property name="text">
     <string>Enter Fullscreen</string>
    </property>
+   <property name="shortcut">
+    <string>Ctrl+F</string>
+   </property>
   </action>
   <action name="actionEnable_Leap_Motion_Device">
    <property name="text">
@@ -448,15 +454,24 @@
    <property name="text">
     <string>Merge</string>
    </property>
+   <property name="shortcut">
+    <string>Ctrl+M</string>
+   </property>
   </action>
   <action name="actionCapture_Model">
    <property name="text">
     <string>Capture Model</string>
    </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+M</string>
+   </property>
   </action>
   <action name="actionCapture_Cross_section">
    <property name="text">
     <string>Capture Cross-section</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+C</string>
    </property>
   </action>
  </widget>
@@ -748,6 +763,22 @@
     <hint type="destinationlabel">
      <x>890</x>
      <y>290</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionZoom_In</sender>
+   <signal>triggered()</signal>
+   <receiver>horizontalSlider_3</receiver>
+   <slot>setFocus()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>837</x>
+     <y>159</y>
     </hint>
    </hints>
   </connection>
